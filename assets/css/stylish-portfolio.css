@@ -14,6 +14,19 @@ body {
   font-family: 'Source Sans Pro';
 }
 
+.ruby-logo {
+
+  position: absolute;
+  right: 7rem;
+  top: 1.2rem;
+}
+
+.git-logo {
+  position: absolute;
+  right: 6.6rem;
+      top: 1.3rem;
+}
+
 .btn-xl {
   padding: 1.25rem 2.5rem;
 }
@@ -93,8 +106,8 @@ h6 {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/bg-masthead.jpg");
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-masthead.jpg");
+  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/bg-masterhead.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-masterhead.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -217,12 +230,12 @@ h6 {
 }
 
 .callout {
-  padding: 15rem 0;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/bg-callout.jpg");
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-callout.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  padding: 5rem 0;
+  background: rgb(245,199,70);
+  background: -moz-linear-gradient(90deg, rgba(245,199,70,1) 26%, rgba(247,165,57,1) 93%);
+  background: -webkit-linear-gradient(90deg, rgba(245,199,70,1) 26%, rgba(247,165,57,1) 93%);
+  background: linear-gradient(90deg, rgba(245,199,70,1) 26%, rgba(247,165,57,1) 93%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f5c746",endColorstr="#f7a539",GradientType=1);
 }
 
 .callout h2 {
@@ -286,18 +299,11 @@ h6 {
     margin-bottom: 5rem;
   }
   .portfolio-item img {
-    -webkit-transition: -webkit-clip-path 0.25s ease-out;
-    -webkit-clip-path: inset(-1px);
-    clip-path: inset(-1px);
   }
   .portfolio-item:hover img {
-    -webkit-clip-path: inset(2rem);
-    clip-path: inset(2rem);
   }
   .portfolio-item:hover .caption {
     background-color: rgba(29, 128, 159, 0.9);
-    -webkit-clip-path: inset(2rem);
-    clip-path: inset(2rem);
   }
 }
 
